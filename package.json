@@ -1,15 +1,11 @@
 {
-  "name": "nl",
+  "name": "contador-dorado",
   "version": "1.0.0",
-  "description": "nl",
-  "main": "api/teleport.js",
   "scripts": {
-    "dev": "vercel dev"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
-  "dependencies": {
-    "axios": "^1.6.0"
-  },
-  "engines": {
-    "node": "22.x"
+  "devDependencies": {
+    "wrangler": "^3.0.0"
   }
 }
